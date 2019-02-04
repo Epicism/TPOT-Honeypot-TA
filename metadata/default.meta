@@ -1,0 +1,44 @@
+######################################################
+#
+# TPOT Honeypots
+# Data visualizations
+#
+# Copyright (C) 2018 David Wells
+# All Rights Reserved
+#
+######################################################
+[]
+access = read : [ * ], write : [ admin, power ]
+
+[eventtypes]
+access = read : [ * ], write : [ admin, power ]
+export = system
+owner = admin
+
+[props]
+export = system
+
+[transforms]
+export = system
+
+[lookups]
+export = system
+
+[tags]
+access = read : [ * ], write : [ admin, power ]
+export = system
+owner = admin
+
+[html]
+access = read : [ * ], write : [ admin, power ]
+export = system
+
+[viewstates]
+access = read : [ * ], write : [ * ]
+export = system
+
+[macros]
+access = read : [ * ], write : [ admin, power ]
+export = system
+owner = admin
+

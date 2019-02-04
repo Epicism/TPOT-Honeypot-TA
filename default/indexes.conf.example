@@ -1,0 +1,4 @@
+[tpot]
+homePath = $SPLUNK_DB/tpot/db
+coldPath = $SPLUNK_DB/tpot/colddb
+thawedPath = $SPLUNK_DB/tpot/thaweddb
